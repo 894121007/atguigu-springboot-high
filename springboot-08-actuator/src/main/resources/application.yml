@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #默认 info，health 开发，配置了 * 就是所有的都开放
+  endpoint:
+    health:
+      show-details: always  # health 健康状态检查显示所有的结果
+spring:
+  redis:
+    host: 106.15.56.251 #配置redis，配合 health 健康状态检查，查看有没有健康状态检查结果。

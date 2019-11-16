@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: consumer-user
+  registry:
+    address: zookeeper://106.15.56.251:2181
+  scan:
+    base-packages: com.atguigu.consumer.service
+server:
+  port: 8081

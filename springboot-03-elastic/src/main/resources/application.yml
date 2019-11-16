@@ -1,0 +1,7 @@
+spring:
+  elasticsearch:
+    jest:
+      uris: http://106.15.56.251:9200/
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 106.15.56.251:9300

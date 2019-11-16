@@ -1,0 +1,6 @@
+#---spring data elasticsearch  的方式
+spring:
+  data:
+    elasticsearch:
+      cluster-name: np_es_cluster  #该值来自于，我们用浏览器访问106.15.56.251:9200地址，打印出的cluster_name的值
+      cluster-nodes: 15.128.21.206:9200

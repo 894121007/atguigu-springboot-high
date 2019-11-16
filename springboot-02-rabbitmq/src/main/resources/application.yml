@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    host: 106.15.56.251
+    #其实我们只需要配置host，port、username、password、virtual-host的默认值都是我们配置的这几个值。
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
